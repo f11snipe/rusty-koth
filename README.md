@@ -2,6 +2,25 @@
 
 *King of the hill game service*
 
+### Install
+
+```bash
+cargo install koth
+```
+
+### Examples
+
+```bash
+# Watch /root/king.txt and listen on all interfaces port 9999
+koth --bind 0.0.0.0 --port 9999 --king-file /root/king.txt
+
+# Override path to json data file
+koth --data-file /tmp/data.json
+
+# Custom scoring values (2/200ms => 10 points per second)
+koth --tick-points 2 --tick-interval 200
+```
+
 ### Usage
 
 ```
