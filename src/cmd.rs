@@ -15,7 +15,7 @@ use clap::{Arg, Command};
 // use tracing::info;
 
 pub const BANNER: &str = r"
-    B A N N E R
+    KING OF THE HILL
 ";
 pub fn banner(v: &str, matches: &ArgMatches) {
     if !matches.get_flag("no_banner") {
