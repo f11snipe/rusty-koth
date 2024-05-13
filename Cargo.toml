@@ -9,7 +9,7 @@ description = "King of the hill game service"
 reqwest = { version = "0.12", features = ["blocking"] }
 clap = { version = "4", features = ["cargo"], optional = true }
 serde = { version = "1", features = ["derive"] }
-serde_json = "1.0.114"
+serde_json = "1.0.117"
 serde_derive = "1"
 serde_yaml = "^0.9.0"
 anyhow = "1"
